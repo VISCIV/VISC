@@ -306,3 +306,162 @@ a {
 .user-container .main .menu-list .nav-item:hover .nav-link {
   color: gray !important;
 }
+/* Main area */
+.main-area {
+  margin-top: 25px;
+}
+.main-area .post-area {
+  width: 100%;
+  height: auto;
+}
+.main-area .post-area .post-list {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.main-area .post-area .post-list .post-box {
+  width: 100%;
+  height: auto;
+  background-color: #303030;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.main-area .post-area .post-list .post-box .content-area {
+  padding: 10px;
+}
+.main-area .post-area .post-list .post-box .content-area .thumbnail {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.main-area .post-area .post-list .post-box .content-area .content {
+  margin-left: 10px;
+}
+.main-area .post-area .post-list .post-box .content-area .content .post-title {
+  font-family: "Acme", sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+}
+.main-area .post-area .post-list .post-box .content-area .content .excerpt {
+  color: darkgray;
+  font-size: 15px;
+}
+.main-area .post-area .post-list .post-box .post-info {
+  width: 100%;
+  height: 50px;
+  /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
+}
+.main-area .post-area .post-list .post-box .post-info .ui {
+  width: auto;
+}
+.main-area .post-area .post-list .post-box .post-info .ui .ui-button {
+  width: auto;
+  height: 50px;
+  padding-right: 10px;
+}
+.main-area .post-area .post-list .post-box .post-info .ui .ui-button .icon {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+.main-area
+  .post-area
+  .post-list
+  .post-box
+  .post-info
+  .ui
+  .ui-button
+  .icon
+  #like-off {
+  display: block;
+}
+.main-area
+  .post-area
+  .post-list
+  .post-box
+  .post-info
+  .ui
+  .ui-button
+  .icon
+  #like-on {
+  display: none;
+  color: red;
+}
+.main-area .post-area .post-list .post-box .post-info .ui .ui-button .score {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.main-area .post-area .post-list .post-box .post-info .ui .photo-author {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+.main-area .post-area .post-list .post-box .post-info .ui .photo-author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.main-area .post-area .post-list .post-box .post-info .ui .author-name {
+  font-size: 15px;
+  color: darkgray;
+  line-height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* sidebar */
+.sidebar .sidebar-content {
+  width: 100%;
+  height: 300px;
+  min-width: 250px;
+}
+.sidebar .sidebar-content span {
+  color: darkgray;
+}
+.sidebar .sidebar-content .tag-list {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.sidebar .sidebar-content .tag-list .tag {
+  margin-bottom: 5px;
+}
+.sidebar .sidebar-content .tag-list .tag i {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.sidebar .sidebar-content .tag-list .tag a {
+  padding: 3px 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  line-height: 10px;
+}
+/* footer */
+#footer {
+  width: 100%;
+  height: auto;
+  background-color: #303030;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+}
+#footer ul {
+  margin: 0px;
+  padding: 0px;
+}
+#footer .nav-item {
+  display: block;
+  font-size: 14px;
+  color: darkgray;
+}
+#footer .nav-link {
+  font-size: 14px;
+  color: darkgray !important;
+}
+#footer .copyright{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
+  color: gray;
+}

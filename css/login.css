@@ -1,0 +1,72 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'mulish', Arial, Helvetica, sans-serif;
+}
+.login{
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login form{
+  text-align: center;
+}
+.login form .login-user, .password{
+  width: 100%;
+  height: 50px;
+  border: 1px solid darkgray;
+  padding-left: 15px;
+  box-shadow: none !important;
+  outline: none !important;
+  font-family: 'mulish', Arial, Helvetica, sans-serif;
+}
+.login form .submit{
+  border: 1px solid transparent;
+  width: 100px;
+  height: 40px;
+  background-color: dodgerblue;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.login form .submit:hover{
+  background-color: rgb(26, 122, 218);
+}
+.login form a{
+  text-decoration: none;
+  color: red;
+  float: right;
+}
+.login form a:hover{
+  color: darkred;
+}
+.login h2{
+  font-family: "Urbanist", sans-serif;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.login .login-method{
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 5px;
+}
+.login .login-method .method{
+  width: 50px;
+  height: 50px;
+}
+.login .login-method .method a{
+  color: dodgerblue;
+  font-size: 25px;
+}
+.login .login-method .signup{
+  text-decoration: none;
+  color: black;
+}
+.login .login-method .signup p:hover{
+  color: darkred !important;
+}
